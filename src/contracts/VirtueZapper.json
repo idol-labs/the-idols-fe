@@ -1,0 +1,75 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_virtueTokenAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_idolMainAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_stethAddress",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "idolMain",
+    "outputs": [
+      {
+        "internalType": "contract IdolMainLike",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "steth",
+    "outputs": [
+      {
+        "internalType": "contract IERC20",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_minVirtue",
+        "type": "uint256"
+      }
+    ],
+    "name": "swapForVirtue",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "virtueToken",
+    "outputs": [
+      {
+        "internalType": "contract IERC20",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
